@@ -4,7 +4,7 @@ let score = 0;
 let playerName = '';
 let timer, timeLeft;
 
-// DOM refs
+
 const startScreen = document.getElementById('screen-start');
 const quizScreen = document.getElementById('screen-quiz');
 const resultsScreen = document.getElementById('screen-results');
