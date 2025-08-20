@@ -86,7 +86,7 @@ app.post('/api/score', async (req, res) => {
     scores.push(entry);
     await fs.writeFile(SCORES_PATH, JSON.stringify(scores, null, 2), 'utf8');
 
-    // Respond with new top 10 (sorted by score desc, then time asc)
+    // The scoreboard displays the top 10 (sorted by score desc, then time asc)
     const top = scores
       .sort((a, b) => b.score - a.score || a.timeMs - b.timeMs)
       .slice(0, 10);
