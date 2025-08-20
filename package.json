@@ -1,0 +1,15 @@
+{
+  "name": "quiz-buzz-app",
+  "version": "1.0.0",
+  "description": "A mini quiz game with Node.js backend and Bootstrap frontend (Kahoot/Quizizz-style UI).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["quiz", "bootstrap", "express", "beginner"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

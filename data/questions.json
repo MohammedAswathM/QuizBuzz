@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyperlinks and Text Markup Language",
+      "Hyper Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Tool Multi Language"
+    ],
+    "answerIndex": 1,
+    "timeLimit": 15,
+    "points": 100
+  },
+  {
+    "id": 2,
+    "question": "Which CSS property controls the text size?",
+    "options": ["font-weight", "text-style", "font-size", "text-size"],
+    "answerIndex": 2,
+    "timeLimit": 15,
+    "points": 100
+  },
+  {
+    "id": 3,
+    "question": "Inside which HTML element do we put JavaScript?",
+    "options": ["<javascript>", "<script>", "<js>", "<scripting>"],
+    "answerIndex": 1,
+    "timeLimit": 15,
+    "points": 100
+  },
+  {
+    "id": 4,
+    "question": "Node.js runs on…",
+    "options": ["The Browser", "The Server", "Both", "Neither"],
+    "answerIndex": 1,
+    "timeLimit": 15,
+    "points": 100
+  },
+  {
+    "id": 5,
+    "question": "Which method fetches a resource over HTTP in JS?",
+    "options": ["grab()", "http()", "fetch()", "request()"],
+    "answerIndex": 2,
+    "timeLimit": 15,
+    "points": 100
+  }
+]
